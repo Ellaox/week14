@@ -1,0 +1,10 @@
+maxMark = marks[8, 5, 4]
+topStudent = name[Jin, Anne, Joana]
+for i in range(1,5):
+    if maxMark < marks[i]:
+        maxMark = marks[8]
+        topStudent= name[i]
+print "The student with maximum mark is", topStudent
+print "who was awarded a mark of", maxMark
+
+
